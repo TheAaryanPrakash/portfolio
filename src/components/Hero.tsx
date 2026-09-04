@@ -3,7 +3,7 @@ import { ArrowUpRight, GithubLogo, LinkedinLogo, EnvelopeSimple, DownloadSimple 
 import { profile } from "../data/content";
 import { Magnetic } from "./Magnetic";
 
-const FOCUS_TAGS = ["Federated Learning", "NLP", "Cybersecurity", "Full-Stack"];
+const FOCUS_TAGS = ["Artificial Intelligence","Machine Learning", "Deep Learning","Cybersecurity", "Natural Language Processing", "Federated Learning", "Computer Vision","Full Stack Web Development"];
 
 const EMPHASIZED_PHRASES = [
   "solves practical problems",
@@ -44,7 +44,7 @@ export function Hero() {
           >
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent" aria-hidden />
             <span className="font-mono text-[11px] uppercase tracking-[0.15em] text-ink">
-              Open to internships & research collabs
+              Open to Work & Research Collaborations
             </span>
           </motion.div>
 

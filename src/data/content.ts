@@ -1,7 +1,7 @@
 export const profile = {
   name: "Aaryan Prakash",
   identity: "AI/ML & research-focused engineer",
-  school: "CS Engineering student at BMS College of Engineering",
+  school: "Computer Science & Engineering Student at BMS College of Engineering",
   tagline:
     "I enjoy building technology that solves practical problems while understanding the business and economic context behind it. I'm equally interested in how engineering decisions shape products, businesses, and create real-world impact.",
   email: "aaryanprakash1@gmail.com",
@@ -13,8 +13,8 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I'm a CS engineering student at BMS College of Engineering, currently working through the 2023–2027 stretch of it. Most of what actually holds my attention lives at the intersection of AI/ML, cybersecurity, and NLP — not because those are the buzzwords of the moment, but because I like sitting with the \"why\" behind a design decision as much as the \"how\" of building it. Figuring out why a federated aggregation scheme breaks under non-IID data scratches an itch that just shipping a feature doesn't.",
-    "Outside coursework and research, I run Protocol, the CSE department's club, as President — which in practice means a lot of sponsor emails, logistics, and making sure the right people are in the room, alongside the actual event-building. It's taught me as much about coordinating people and managing expectations as any class has taught me about algorithms.",
+    "I'm a Computer Science & Engineering student at BMS College of Engineering. Most of what actually holds my attention lives at the intersection of AI/ML, cybersecurity, and NLP — not because those are the buzzwords of the moment, but because I like sitting with the \"why\" behind a design decision as much as the \"how\" of building it. Figuring out why a federated aggregation scheme breaks under non-IID data scratches an itch that just shipping a feature doesn't.",
+    "Outside coursework and research, I ran Protocol, the official club of the Department of Computer Science & Engineering as President — which in practice meant the planning and execution of event as well as leading sponsorship efforts."
   ],
 };
 
@@ -41,12 +41,12 @@ export const projects: Project[] = [
   {
     slug: "federated-ids",
     title: "Federated Learning-Based Intrusion Detection System",
-    category: "Federated Learning & Cybersecurity Research",
+    category: "Federated Learning & Cybersecurity Research & Project",
     period: "Jan 2026 – Present",
     status: "ongoing",
     featured: true,
     summary:
-      "An FL-based intrusion detection system for SDN-enabled IoT environments, built to stay accurate even when clients are unreliable or malicious.",
+      "A Federated Learning-based intrusion detection system for SDN-enabled IoT environments, built to stay accurate even when clients are unreliable or malicious.",
     problem:
       "SDN-enabled IoT environments generate distributed, non-IID data across a lot of untrusted clients, which makes a normal centralized IDS a bad fit — you either give up on privacy or give up on robustness. I wanted to work on something that sits at the actual intersection of federated learning and security instead of treating FL as a black box.",
     approach: [
@@ -61,7 +61,7 @@ export const projects: Project[] = [
   {
     slug: "fake-news-bert-lightgbm",
     title: "Fake News Detection using BERT & LightGBM",
-    category: "Machine Learning & NLP",
+    category: "Machine Learning & Natural Language Processing",
     period: "Sep 2025 – Dec 2025",
     status: "complete",
     featured: true,
@@ -104,7 +104,7 @@ export const projects: Project[] = [
   },
   {
     slug: "ai-flashcard-generator",
-    title: "AI-Powered Flashcard Generator",
+    title: "Notes on Time: An AI-Powered Flashcard Generator",
     category: "Full-Stack Web Application",
     period: "Oct 2024 – Jan 2025 · updated 2026",
     status: "complete",

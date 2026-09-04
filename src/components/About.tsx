@@ -2,7 +2,7 @@ import { Section } from "./Section";
 import { Reveal } from "./Reveal";
 import { about } from "../data/content";
 
-const INTERESTS = ["AI / ML", "Cybersecurity", "NLP", "Federated Learning"];
+const INTERESTS = ["Artificial Intelligence","Machine Learning", "Deep Learning","Cybersecurity", "Natural Language Processing", "Federated Learning", "Computer Vision","Full Stack Web Development"];
 
 export function About() {
   return (
