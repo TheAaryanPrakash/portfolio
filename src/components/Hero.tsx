@@ -34,7 +34,7 @@ export function Hero() {
 
   return (
     <section id="top" className="relative overflow-hidden bg-field pb-20 pt-36 text-field-ink sm:pb-28 sm:pt-44">
-      <div className="container-page relative grid grid-cols-1 gap-14 lg:grid-cols-[1.15fr_0.85fr] lg:items-end lg:gap-10">
+      <div className="container-page relative grid grid-cols-1 gap-14 lg:grid-cols-[1.15fr_0.85fr] lg:items-start lg:gap-10">
         <div>
           <motion.div
             initial={reduce ? false : { opacity: 0, y: 12 }}
