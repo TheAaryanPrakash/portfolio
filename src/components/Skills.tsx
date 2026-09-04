@@ -29,7 +29,7 @@ export function Skills() {
           Stack
         </span>
         <h2 className="mt-4 max-w-2xl font-display text-3xl font-bold leading-tight text-field-ink sm:text-4xl">
-          What I actually build with.
+          Tools and technologies
         </h2>
       </Reveal>
 
