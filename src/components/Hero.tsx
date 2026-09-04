@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "motion/react";
-import { ArrowUpRight, GithubLogo, LinkedinLogo, EnvelopeSimple, DownloadSimple } from "@phosphor-icons/react";
+import { ArrowUpRight, GithubLogo, LinkedinLogo, EnvelopeSimple, ArrowSquareOut } from "@phosphor-icons/react";
 import { profile } from "../data/content";
 import { Magnetic } from "./Magnetic";
 
@@ -85,10 +85,11 @@ export function Hero() {
             </Magnetic>
             <a
               href="/resume.pdf"
-              download
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-field-line-strong px-6 py-3 font-mono text-xs uppercase tracking-[0.1em] text-field-ink transition-colors duration-200 hover:bg-bg hover:text-ink"
             >
-              <DownloadSimple size={15} weight="bold" />
+              <ArrowSquareOut size={15} weight="bold" />
               Resume
             </a>
             <a
