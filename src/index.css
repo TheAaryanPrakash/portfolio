@@ -49,6 +49,14 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  p,
+  li {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+
   ::selection {
     background-color: var(--color-bg);
     color: var(--color-field);
