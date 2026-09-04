@@ -5,7 +5,7 @@ import { useReducedMotion } from "motion/react";
 import { ArrowUpRight, GithubLogo, ArrowSquareOut } from "@phosphor-icons/react";
 import type { Project } from "../data/content";
 import { ProjectModal } from "./ProjectModal";
-import { ProjectLinkIcon } from "./ProjectLinkIcon";
+import { ProjectLinkIcon, ProjectLinkText } from "./ProjectLinkIcon";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -102,11 +102,6 @@ export function ProjectGallery({
                     <GithubLogo size={16} />
                   </ProjectLinkIcon>
                 )}
-                {project.liveUrl !== undefined && (
-                  <ProjectLinkIcon href={project.liveUrl || undefined} label="Visit live site" stopPropagation>
-                    <ArrowSquareOut size={16} />
-                  </ProjectLinkIcon>
-                )}
               </div>
             </div>
 
@@ -131,13 +126,21 @@ export function ProjectGallery({
               ))}
             </ul>
 
-            <div className="mt-6 flex items-center gap-2 border-t border-border pt-5 font-mono text-xs uppercase tracking-[0.1em] text-accent">
-              View case study
-              <ArrowUpRight
-                size={14}
-                weight="bold"
-                className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-              />
+            <div className="mt-6 flex items-center justify-between gap-4 border-t border-border pt-5">
+              <div className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.1em] text-accent">
+                View case study
+                <ArrowUpRight
+                  size={14}
+                  weight="bold"
+                  className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </div>
+              {project.liveUrl !== undefined && (
+                <ProjectLinkText href={project.liveUrl || undefined} label="Visit live site" stopPropagation>
+                  Visit Website
+                  <ArrowSquareOut size={14} weight="bold" />
+                </ProjectLinkText>
+              )}
             </div>
           </article>
         ))}
