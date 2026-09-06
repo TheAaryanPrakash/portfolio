@@ -16,7 +16,7 @@ export const about = {
     "From the start, technology has always fascinated me. Not just how it works, but the impact it creates. Now entering my final year as a Computer Science and Engineering student at BMS College of Engineering, I'm more driven than ever to build, lead, and contribute meaningfully to the tech space.",
     "I'm passionate about solving problems through code, with strong interests in DSA, cryptography, cybersecurity, databases, machine learning, and data analysis. At the same time, I've developed a deep interest in how technology meets business: through marketing, strategy, and innovation. My leadership experiences, especially with Protocol, have shown me how much I enjoy taking initiative, rallying teams, and making ideas happen.",
     "While I'm committed to growing as a technologist, I also hope to gradually take on roles that blend engineering depth with business impact. I'm always seeking opportunities where I can learn, collaborate, and have fun, while building meaningful, real-world solutions.",
-    "Outside of engineering, I write — I run Synergy Weekly, digging into optimistic science and tech stories and trying to make them land for people who aren't already in the field. And when I want to step away from a screen entirely, I'm usually out shooting photography instead, mostly landscapes and whatever catches my eye outdoors.",
+    "Outside of engineering, I still write — mostly optimistic science and tech stories, along with technical articles, and I've become genuinely interested in journalism as something I want to keep pursuing. And when I want to step away from a screen entirely, I'm usually out shooting photography instead, mostly landscapes and whatever catches my eye outdoors.",
   ],
 };
 
