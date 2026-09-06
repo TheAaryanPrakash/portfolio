@@ -26,7 +26,7 @@ export function About() {
             <Reveal key={i} delay={i * 0.08}>
               <p
                 className={`max-w-[65ch] text-lg leading-relaxed sm:text-xl ${
-                  i === 0 ? "text-ink" : "text-field-muted"
+                  i === 0 ? "font-semibold text-ink" : "text-field-muted"
                 }`}
               >
                 {p}
