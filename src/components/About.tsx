@@ -25,10 +25,8 @@ export function About() {
           {about.paragraphs.map((p, i) => (
             <Reveal key={i} delay={i * 0.08}>
               <p
-                className={`max-w-[65ch] leading-relaxed ${
-                  i === 0
-                    ? "text-xl font-medium text-ink sm:text-2xl"
-                    : "text-lg text-field-muted sm:text-xl"
+                className={`max-w-[65ch] text-lg leading-relaxed sm:text-xl ${
+                  i === 0 ? "text-ink" : "text-field-muted"
                 }`}
               >
                 {p}
