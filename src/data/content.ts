@@ -242,8 +242,8 @@ export const education: EducationEntry[] = [
   },
   {
     institution: "DPS Bangalore South",
-    detail: "Grade 90% (XII) · 93% (X)",
-    period: "Middle / High School",
+    detail: "Middle / High School · Grade 90% (XII) · 93% (X)",
+    period: "2016 – 2023",
   },
   {
     institution: "National Hill View Public School",
