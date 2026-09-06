@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import { GithubLogo, ArrowUpRight } from "@phosphor-icons/react";
-import { StaggerGroup, staggerItem } from "./Reveal";
+import { StaggerGroup } from "./Reveal";
+import { staggerItem } from "../lib/motion";
 import { ProjectModal } from "./ProjectModal";
 import { ProjectLinkIcon } from "./ProjectLinkIcon";
 import { projects, hostedProjectSlugs, type Project } from "../data/content";

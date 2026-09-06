@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
 import { InstagramLogo, ArrowUpRight } from "@phosphor-icons/react";
 import { Section } from "./Section";
-import { StaggerGroup, staggerItem, Reveal } from "./Reveal";
+import { StaggerGroup, Reveal } from "./Reveal";
+import { staggerItem } from "../lib/motion";
 import { photography, photographyProfileUrl } from "../data/content";
 
 export function Photography() {

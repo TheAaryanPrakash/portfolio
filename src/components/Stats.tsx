@@ -1,5 +1,6 @@
 import { Section } from "./Section";
-import { StaggerGroup, staggerItem } from "./Reveal";
+import { StaggerGroup } from "./Reveal";
+import { staggerItem } from "../lib/motion";
 import { motion } from "motion/react";
 import { projects, certifications, skills } from "../data/content";
 
