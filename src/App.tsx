@@ -1,3 +1,4 @@
+import { SmoothScroll } from "./components/SmoothScroll";
 import { Nav } from "./components/Nav";
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
@@ -15,6 +16,7 @@ import { Footer } from "./components/Footer";
 export default function App() {
   return (
     <div className="min-h-dvh bg-field text-field-ink">
+      <SmoothScroll />
       <Nav />
       <main>
         <Hero />

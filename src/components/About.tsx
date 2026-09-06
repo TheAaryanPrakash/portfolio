@@ -27,7 +27,7 @@ export function About() {
               <p
                 className={`max-w-[65ch] leading-relaxed ${
                   i === 0
-                    ? "text-xl font-medium text-field-ink sm:text-2xl"
+                    ? "text-xl font-medium text-ink sm:text-2xl"
                     : "text-lg text-field-muted sm:text-xl"
                 }`}
               >

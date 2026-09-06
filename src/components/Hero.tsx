@@ -117,18 +117,6 @@ export function Hero() {
               <EnvelopeSimple size={19} />
             </SocialLink>
           </motion.div>
-
-          <motion.div
-            initial={reduce ? false : { opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="mt-16 flex items-center gap-2.5 lg:mt-24"
-          >
-            <span className="h-8 w-px bg-field-line-strong" aria-hidden />
-            <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-field-muted">
-              Scroll
-            </span>
-          </motion.div>
         </div>
 
         <motion.div
