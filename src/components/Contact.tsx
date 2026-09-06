@@ -3,7 +3,6 @@ import { Section } from "./Section";
 import { Reveal } from "./Reveal";
 import {
   EnvelopeSimple,
-  Phone,
   MapPin,
   GithubLogo,
   LinkedinLogo,
@@ -45,15 +44,6 @@ export function Contact() {
               >
                 <EnvelopeSimple size={18} />
                 {profile.email}
-              </a>
-            </li>
-            <li>
-              <a
-                href={`tel:${profile.phone.replace(/\s/g, "")}`}
-                className="flex items-center gap-3 text-sm font-medium text-field-ink transition-opacity hover:opacity-70"
-              >
-                <Phone size={18} />
-                {profile.phone}
               </a>
             </li>
             <li className="flex items-center gap-3 text-sm text-field-muted">

@@ -2,13 +2,11 @@ import { Section } from "./Section";
 import { StaggerGroup } from "./Reveal";
 import { staggerItem } from "../lib/motion";
 import { motion } from "motion/react";
-import { projects, certifications, skills } from "../data/content";
-
-const TECH_COUNT = skills.flatMap((group) => group.items).length;
+import { certifications } from "../data/content";
 
 const STATS = [
-  { value: String(projects.length).padStart(2, "0"), label: "Projects shipped" },
-  { value: String(TECH_COUNT), label: "Technologies & tools" },
+  { value: "10+", label: "Projects shipped" },
+  { value: "40+", label: "Technologies & tools" },
   { value: String(certifications.length).padStart(2, "0"), label: "Certifications earned" },
   { value: "100+", label: "Published writing pieces" },
 ];

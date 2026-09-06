@@ -5,7 +5,6 @@ export const profile = {
   tagline:
     "I enjoy building technology that solves practical problems while understanding the business and economic context behind it. I'm equally interested in how engineering decisions shape products, businesses, and create real-world impact.",
   email: "aaryanprakash1@gmail.com",
-  phone: "+91 82176 17133",
   location: "Bengaluru, Karnataka",
   github: { label: "@TheAaryanPrakash", url: "https://github.com/TheAaryanPrakash" },
   linkedin: { label: "Aaryan Prakash", url: "https://www.linkedin.com/in/aaryan-prakash" },
