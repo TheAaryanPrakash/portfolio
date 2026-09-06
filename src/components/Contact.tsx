@@ -26,7 +26,7 @@ export function Contact() {
   }
 
   return (
-    <Section id="contact" index="07" label="Contact">
+    <Section id="contact" index="08" label="Contact">
       <div className="grid grid-cols-1 gap-14 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
         <Reveal>
           <h3 className="font-display text-3xl font-bold leading-tight text-field-ink sm:text-4xl">

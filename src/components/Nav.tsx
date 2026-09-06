@@ -9,6 +9,7 @@ const LINKS = [
   { href: "#writing", label: "Writing" },
   { href: "#experience", label: "Experience" },
   { href: "#education", label: "Education" },
+  { href: "#photography", label: "Photography" },
 ];
 
 export function Nav() {
@@ -23,7 +24,7 @@ export function Nav() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4 sm:px-6 sm:pt-6">
-      <div className="mx-auto flex h-14 max-w-3xl items-center justify-between rounded-full border border-white/10 bg-bg/95 pl-5 pr-2 shadow-[0_8px_30px_rgb(0,0,0,0.35)] backdrop-blur-md sm:h-16 sm:pr-2.5">
+      <div className="mx-auto flex h-14 max-w-4xl items-center justify-between rounded-full border border-white/10 bg-bg/95 pl-5 pr-2 shadow-[0_8px_30px_rgb(0,0,0,0.35)] backdrop-blur-md sm:h-16 sm:pr-2.5">
         <a
           href="#top"
           className="font-display text-base font-semibold tracking-tight text-ink"
@@ -32,7 +33,7 @@ export function Nav() {
           AP<span className="text-accent">.</span>
         </a>
 
-        <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-5 lg:flex" aria-label="Primary">
           {LINKS.map((link) => (
             <a
               key={link.href}
@@ -66,7 +67,7 @@ export function Nav() {
 
       {open && (
         <nav
-          className="mx-auto mt-3 max-w-3xl rounded-3xl border border-white/10 bg-bg px-6 py-6 shadow-[0_8px_30px_rgb(0,0,0,0.35)] lg:hidden"
+          className="mx-auto mt-3 max-w-4xl rounded-3xl border border-white/10 bg-bg px-6 py-6 shadow-[0_8px_30px_rgb(0,0,0,0.35)] lg:hidden"
           aria-label="Primary mobile"
         >
           <div className="flex flex-col gap-5">

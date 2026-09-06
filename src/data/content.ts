@@ -13,8 +13,10 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I'm a Computer Science & Engineering student at BMS College of Engineering. Most of what actually holds my attention lives at the intersection of AI/ML, cybersecurity, and NLP — not because those are the buzzwords of the moment, but because I like sitting with the \"why\" behind a design decision as much as the \"how\" of building it. Figuring out why a federated aggregation scheme breaks under non-IID data scratches an itch that just shipping a feature doesn't.",
-    "Outside coursework and research, I ran Protocol, the official club of the Department of Computer Science & Engineering as President — which in practice meant the planning and execution of event as well as leading sponsorship efforts."
+    "From the start, technology has always fascinated me. Not just how it works, but the impact it creates. Now entering my final year as a Computer Science and Engineering student at BMS College of Engineering, I'm more driven than ever to build, lead, and contribute meaningfully to the tech space.",
+    "I'm passionate about solving problems through code, with strong interests in DSA, cryptography, cybersecurity, databases, machine learning, and data analysis. At the same time, I've developed a deep interest in how technology meets business: through marketing, strategy, and innovation. My leadership experiences, especially with Protocol, have shown me how much I enjoy taking initiative, rallying teams, and making ideas happen.",
+    "While I'm committed to growing as a technologist, I also hope to gradually take on roles that blend engineering depth with business impact. I'm always seeking opportunities where I can learn, collaborate, and have fun, while building meaningful, real-world solutions.",
+    "Outside of engineering, I write — I run Synergy Weekly, digging into optimistic science and tech stories and trying to make them land for people who aren't already in the field. And when I want to step away from a screen entirely, I'm usually out shooting photography instead, mostly landscapes and whatever catches my eye outdoors.",
   ],
 };
 
@@ -146,6 +148,22 @@ export const projects: Project[] = [
 ];
 
 export const hostedProjectSlugs = ["f1-analytics-dashboard", "ai-flashcard-generator"];
+
+export interface PhotographyItem {
+  src: string;
+  instagramUrl: string;
+}
+
+export const photography: PhotographyItem[] = [
+  { src: "/photography/photo-1.jpg", instagramUrl: "https://www.instagram.com/p/CBALq2lsDoi/" },
+  { src: "/photography/photo-2.jpg", instagramUrl: "https://www.instagram.com/p/CRG2TPXskS9/" },
+  { src: "/photography/photo-3.jpg", instagramUrl: "https://www.instagram.com/p/CAid7DKgcW-/" },
+  { src: "/photography/photo-4.jpg", instagramUrl: "https://www.instagram.com/p/B6esO3yASKy/" },
+  { src: "/photography/photo-5.jpg", instagramUrl: "https://www.instagram.com/p/Bz26oU7HhzE/" },
+  { src: "/photography/photo-6.jpg", instagramUrl: "https://www.instagram.com/p/CDrGHSnsYu8/" },
+];
+
+export const photographyProfileUrl = "https://www.instagram.com/_._lensational_pics_._";
 
 export interface WritingRole {
   role: string;
